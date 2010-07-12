@@ -41,5 +41,12 @@
             android:id="@+id/Button_Email_Pic"
             android:onClick="sendPictureMessage"
             android:text="@string/buttontext_msg_pic"></Button>
+        <Button
+            android:id="@+id/Button_Feedback"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:onClick="launchForm"
+            android:text="@string/buttontext_feedback"></Button>
+
     </LinearLayout>
 </ScrollView>
