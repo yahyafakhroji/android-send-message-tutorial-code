@@ -31,6 +31,8 @@
 package com.mamlambo.tutorial.sendmessage;
 
 import java.io.File;
+
+
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -125,6 +127,14 @@ public class SendMessageActivity extends Activity {
             Log.e(LOG_TAG, "sendPictureMessage() failed to start activity.", e);
             Toast.makeText(this, "No handler", Toast.LENGTH_LONG).show();
         }
+    }
+    
+    
+    public void launchForm(View button) {
+
+        Intent launchFormActivity = new Intent(this, FormActivity.class); 
+        startActivity(launchFormActivity);
+
     }
 
 }
