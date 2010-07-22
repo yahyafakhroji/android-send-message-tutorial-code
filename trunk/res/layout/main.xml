@@ -47,6 +47,11 @@
             android:layout_width="fill_parent"
             android:onClick="launchForm"
             android:text="@string/buttontext_feedback"></Button>
-
+        <Button
+            android:id="@+id/Button_Feedback"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:onClick="showInviteForm"
+            android:text="@string/buttontext_invite"></Button>
     </LinearLayout>
 </ScrollView>

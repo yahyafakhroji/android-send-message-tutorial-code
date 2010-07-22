@@ -136,5 +136,10 @@ public class SendMessageActivity extends Activity {
         startActivity(launchFormActivity);
 
     }
+    
+    public void showInviteForm(View button) {
+        Intent launchInviteActivity = new Intent(this, InviteActivity.class);
+        startActivity(launchInviteActivity);
+    }
 
 }
