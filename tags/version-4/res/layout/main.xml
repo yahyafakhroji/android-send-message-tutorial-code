@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:gravity="center_horizontal"
+            android:layout_gravity="top"
+            android:textSize="10pt" />
+        <Button
+            android:id="@+id/Button_Simple"
+            android:layout_height="wrap_content"
+            android:text="@string/buttontext_simpleemail"
+            android:layout_width="fill_parent"
+            android:onClick="sendSimpleEmail"></Button>
+        <Button
+            android:id="@+id/Button_Email"
+            android:layout_height="wrap_content"
+            android:text="@string/buttontext_email"
+            android:layout_width="fill_parent"
+            android:onClick="sendPlainTextEmail"></Button>
+        <Button
+            android:id="@+id/Button_Chooser"
+            android:layout_height="wrap_content"
+            android:text="@string/buttontext_simpleemail_chooser"
+            android:layout_width="fill_parent"
+            android:onClick="chooseEmail"></Button>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/Button_Email_Pic"
+            android:onClick="sendPictureMessage"
+            android:text="@string/buttontext_msg_pic"></Button>
+        <Button
+            android:id="@+id/Button_Feedback"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:onClick="launchForm"
+            android:text="@string/buttontext_feedback"></Button>
+        <Button
+            android:id="@+id/Button_Feedback"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:onClick="showInviteForm"
+            android:text="@string/buttontext_invite"></Button>
+    </LinearLayout>
+</ScrollView>
