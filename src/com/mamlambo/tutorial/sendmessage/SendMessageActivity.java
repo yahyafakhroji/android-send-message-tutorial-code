@@ -141,9 +141,5 @@ public class SendMessageActivity extends Activity {
         Intent launchInviteActivity = new Intent(this, InviteActivity.class);
         startActivity(launchInviteActivity);
     }
-    
-    public void gotoQuickContactBadgeScreen(View view) {
-        Intent launchQuickContactBadgeActivity = new Intent(this, QuickContactBadgeActivity.class);
-        startActivity(launchQuickContactBadgeActivity);
-    }
+
 }

@@ -71,28 +71,17 @@
         name="feedbackmessagesubject_format">Application Feedback (%1$s)</string>
     <string
         name="buttontext_invite">Invite Contacts</string>
-    <string
-        name="invitetypeprompt">Pick type of invite...</string>
-    <string
-        name="invite_email_hint">Enter email...</string>
+        <string name="invitetypeprompt">Pick type of invite...</string>
+        <string name="invite_email_hint">Enter email...</string>
     <string
         name="invitetype1">Coffee</string>
     <string
         name="invitetype2">Lunch</string>
     <string
         name="invitetype3">Walk Around the Block</string>
-    <string
-        name="invite_message_preview_title">Message to send:</string>
-    <string
-        name="invite_email_label">Enter email:</string>
-    <string
-        name="pick_email_label">Browse...</string>
-    <string
-        name="invite_activity_title">Invite Someone to Something</string>
-    <string
-        name="message_preview">Message will go here...</string>
-    <string
-        name="other">Other Contact Related Actions</string>
-<string name="quick_contact">Show Quick Contact Badge</string>
-<string name="pick_contact_for_badge">Pick Contact For Badge</string>
+<string name="invite_message_preview_title">Message to send:</string>
+<string name="invite_email_label">Enter email:</string>
+<string name="pick_email_label">Browse...</string>
+<string name="invite_activity_title">Invite Someone to Something</string>
+<string name="message_preview">Message will go here...</string>
 </resources>
