@@ -31,8 +31,6 @@
 package com.mamlambo.tutorial.sendmessage;
 
 import java.io.File;
-
-
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -128,22 +126,5 @@ public class SendMessageActivity extends Activity {
             Toast.makeText(this, "No handler", Toast.LENGTH_LONG).show();
         }
     }
-    
-    
-    public void launchForm(View button) {
 
-        Intent launchFormActivity = new Intent(this, FormActivity.class); 
-        startActivity(launchFormActivity);
-
-    }
-    
-    public void showInviteForm(View button) {
-        Intent launchInviteActivity = new Intent(this, InviteActivity.class);
-        startActivity(launchInviteActivity);
-    }
-    
-    public void gotoQuickContactBadgeScreen(View view) {
-        Intent launchQuickContactBadgeActivity = new Intent(this, QuickContactBadgeActivity.class);
-        startActivity(launchQuickContactBadgeActivity);
-    }
 }
