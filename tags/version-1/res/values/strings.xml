@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Click on the buttons to send an email in different
+		ways</string>
+	<string name="app_name">Message Launcher</string>
+	<string name="buttontext_simpleemail">Send plain text</string>
+	<string name="chooser">Send message using:</string>	<string name="chooser_pic">Send picture using:</string>
+	<string name="buttontext_simpleemail_chooser">Send a message (Choose app to send)
+	</string>
+	<string name="buttontext_email">Send plaintext message (with supplied content)
+	</string>
+	<string name="buttontext_msg_pic">Send picture msg (with supplied content)
+	</string>
+	<string name="email_message">This is my message body.\n\nCheers,\nMe
+	</string>
+	<string name="email_subject">This is my subject</string>
+	<string name="email_address">test@fakehost.com</string>
+	<string name="email_address_cc">test_cc@fakehost.com</string>
+	<string name="email_address_bcc">test_bcc@fakehost.com</string>
+
+</resources>
